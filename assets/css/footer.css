@@ -1,0 +1,140 @@
+
+/* ========================================================== */
+/* 			                03. FOOTER                        */
+/* ========================================================== */
+
+.footer{
+	position: relative;
+	overflow: hidden;
+    display: block;
+    padding-top: 80px;
+    background-color: #fafbfc;
+}
+
+.footer-top{
+	padding-bottom: 60px;
+}
+
+.footer-bottom{
+	padding: 40px 0 40px 0;
+	background-color: #fff;
+	border-top: 1px solid #efefef;
+}
+
+.footer-top i {
+    margin-bottom: 10px;
+    color: #ec4090;
+    font-size: 60px;
+}
+
+.footer p {
+	margin-bottom: 5px;
+	line-height: 24px;
+	color: #454545;
+}
+
+.footer p > a {
+	font-size: 17px;
+	color: #ec4090;
+	text-decoration:underline;
+}
+
+.footer p > a:hover {
+	color: #ec4090;
+	text-decoration:underline;
+}
+
+span.template-name{
+	font-weight: bold;
+    color: #ec4090;
+}
+
+a.footer-links {
+    display: block;
+    font-size: 17px;
+    margin-bottom: 2px;
+    color: #454545;
+}
+
+a.footer-links:hover {
+	color: #ec4090;
+	text-decoration:underline;
+    transition: all .5s ease-in-out;
+}
+
+/* Footer Social Icons */
+ul.footer_social{
+	width:100%;
+	max-width:1140px;
+	display:block;
+	margin:0 auto;
+	padding-top:15px;
+	text-align:center;
+}
+
+ul.footer_social li{
+	display:inline-block;
+    margin:0 ;
+	line-height:100%!important;
+}
+
+ul.footer_social li a i {
+  display: inline-block;
+  margin:0 8px;
+  padding:0;
+  font-size:26px!important;
+  line-height: 26px!important;
+  color: #1e90ff;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -webkit-transition: all .25s ease-in-out;
+}
+
+ul.footer_social li a i.fa-twitter {
+  color: #4099ff;
+}
+
+ul.footer_social li a i.fa-pinterest {
+  color: #C92228;
+}
+
+ul.footer_social li a i.fa-facebook-square {
+  color: #3b5998;
+}
+
+ul.footer_social li a i.fa-instagram {
+  color: #8a3ab9;
+}
+
+ul.footer_social li a i.fa-skipe {
+  color: #00aff0;
+}
+
+ul.footer_social li a i.fa-dribble {
+  color: #ea4c89;
+}
+
+ul.footer_social li a i:hover {
+	color:#ec4090!important;
+}
+
+/* Footer Contact */
+p.contact-info{
+	margin-bottom:8px;
+}
+
+p.contact-info a{
+	margin-bottom:8px;
+	color: #7c8595;
+}
+
+p.contact-info a:hover{
+	text-decoration: underline;
+}
+
+p.contact-info i{
+	font-size:18px;
+	padding-right:5px;
+	vertical-align: middle;
+	color: #1e90ff;
+}
